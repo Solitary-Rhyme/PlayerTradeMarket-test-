@@ -1,0 +1,417 @@
+@CHARSET "UTF-8";
+
+body {
+	overflow: hidden;
+}
+
+/** {*/
+/*	margin: 0;*/
+/*	font-family:"Microsoft Yahei";*/
+/*	color: #666;*/
+/*}*/
+
+div{
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+}
+
+#header {
+	height: 82px;
+	width: 1200px;
+}
+
+#header span{
+	color: #FFD764;
+	font-weight: bold;
+	text-align: center;
+	line-height: 90px;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 1px;
+}
+
+#main {
+	height: 460px;
+	width: 1200px;
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+	border-left: 4px black solid;
+	border-right: 4px black solid;
+	border-radius: 15px;
+	overflow: auto;
+}
+
+#bottom {
+	height: 30px;
+	width: 1200px;
+	text-align: center;
+}
+
+#book{
+	border-style: inset;
+	border-color: #666666;
+	border-radius: 15px;
+	width: 99%;
+	height: 99%;
+	margin: auto;
+	
+}
+
+.b_list{
+	height:300px;
+	width:250px;
+	margin: 20px;
+	float: left;
+	margin-top:0px;
+	margin-bottom:0px;
+	border: 1px #e3e3e3 solid;
+}
+
+#page_nav{
+	width: 100%;
+	height: 10px;
+	margin: auto;
+	
+	text-align: center;
+}
+
+#pn_input {
+	width: 30px;
+	text-align: center;
+}
+
+.img_div{
+	height: 150px;
+	text-align: center;
+}
+
+.book_img {
+	height:150px;
+	width:150px;
+}
+
+.book_info {
+	
+	text-align: center;
+}
+
+.book_info div{
+	height: 10px;
+	width: 300px;
+	text-align: left;
+}
+
+.wel_word{
+	font-size: 45px;
+	/*float: center;*/
+}
+
+.item_img{
+	width: 30px;
+	height: 30px;
+	margin-right: 15px;
+	/*float: left;*/
+}
+
+#header div a {
+	color: #FFD764;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#header div{
+	float: right;
+	margin-top: 55px;
+}
+
+.book_cond{
+	margin-left: 500px;
+}
+
+.book_cond input{
+	width: 50px;
+	text-align: center;
+}
+
+
+/*登录页面CSS样式  */
+
+#login_header{
+	height: 82px;
+	width: 1200px;
+}
+
+.login_banner{
+	height:475px;
+	background: #2E2E2E;
+	border: 8px solid #272727;
+}
+
+.login_form{
+	height:310px;
+	width:406px;
+	float: right;
+	margin-right:50px;
+	margin-top: 50px;
+	background-color: #3C3C3C;
+	border-radius: 15px;
+	border: 2px solid #ffe57d;
+}
+
+.login_word{
+	font-weight: bolder;
+}
+#content {
+	height: 475px;
+	width: 1200px;
+}
+
+.login_box{
+	margin: 20px;
+	height: 260px;
+	width: 366px;
+	background-color: #3C3C3C;
+}
+
+h1 {
+	font-size: 20px;
+}
+.msg_cont{
+	background: none repeat scroll 0 0 #666666;
+    border: 2px solid #2E2E2E;
+    color: #666;
+    height: 18px;
+    line-height: 18px;
+    padding: 3px 10px 3px 40px;
+    position: relative;
+	border-radius: 15px;
+	text-align: center;
+}
+
+/*.msg_cont b {*/
+/*	background: url("../img/pwd-icons-new.png") no-repeat scroll -104px -22px rgba(0, 0, 0, 0);*/
+/*    display: block;*/
+/*    height: 17px;*/
+/*    left: 10px;*/
+/*    margin-top: -8px;*/
+/*    overflow: hidden;*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    width: 16px;*/
+/*}*/
+
+.form .itxt {
+    border: 0 none;
+    float: none;
+    font-family: "宋体";
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+    width: 220px;
+    border: 1px #2A2A2A solid;
+	background: #666666;
+	color: #FFFFDF;
+}
+
+.form label{
+	color: #FFD764;
+	font-weight: bold;
+}
+
+#sub_btn{
+	background-color: #7BB99B;
+	border: none;
+	color: #e3e3e3;
+	width: 360px;
+	height: 30px;
+	font-weight: bold;
+}
+
+#l_content {
+	float: left;
+	margin-top: 150px;
+	margin-left: 300px;
+}
+
+#l_content span {
+	font-size: 60px;
+	color: white;
+}
+
+.tit h1 {
+	float: left;
+	margin-top: 5px;
+	color: #FFD764;
+	font-weight: bold;
+}
+
+.tit a {
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #CE0000;
+	text-decoration: none;
+}
+
+.tit .errorMsg {
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #CE0000;
+}
+
+.tit {
+	height: 30px;
+}
+/*购物车*/
+#main table{
+	margin: 10px auto auto;
+	border-collapse: collapse;
+}
+
+#main table td{
+	font-size: 15px;
+	color: #ffffff;
+	width: 165px;
+	text-align:center;
+	padding: 15px;
+}
+
+.cart_info{
+	width: 700px;
+	text-align: right;
+}
+
+.cart_span {
+	margin-left: 20px;
+}
+
+.cart_span span{
+	color: red;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.cart_span a , td a{
+	font-size: 20px;
+	color: blue;
+}
+
+#header div span {
+	margin: 10px;
+}
+
+#header div .um_span{
+	color: red;
+	font-size: 25px;
+	margin: 10px;
+}
+
+/*设置文本框内placeholder颜色*/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #BEBEBE;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+	color: #BEBEBE;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	color: #BEBEBE;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	color: #BEBEBE;
+}
+
+
+
+
+
+
+/*goods页面样式*/
+
+.select_text{
+	border: 0 none;
+	float: none;
+	font-family: "宋体";
+	font-size: 14px;
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 10px 0 10px 10px;
+	width: 220px;
+	border: 5px #2A2A2A solid;
+	background: #666666;
+	color: #FFFFDF;
+}
+
+.select_img{
+	margin-left: 240px;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top:20px;
+}
+
+.wel_word_goods{
+	font-size: 45px;
+	position: relative;
+	right:100px;
+}
+
+#select_sub_btn{
+	background-color: #666666;
+	border: 3px solid #000000;
+	color: #e3e3e3;
+	width: 70px;
+	height: 40px;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+.select_form{
+	border: 2px solid #666666;
+	width: 200px;
+	height:450px;
+	position: relative;
+	left: 50px;
+	float: left;
+}
+
+.select_radio{
+	width: 200px;
+	height:100px;
+	margin-bottom: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFBB;
+}
+
+.select_small_title{
+	height: 25px;
+	width: 200px;
+	background: #BEBEBE;
+	text-align: center;
+	font-weight: bold;
+}
+
+#select_left_btn{
+	background-color: #666666;
+	border: 3px solid #000000;
+	color: #e3e3e3;
+	width: 70px;
+	height: 40px;
+	font-weight: bold;
+	border-radius: 15px;
+	margin-top: 40px;
+	margin-left: 60px;
+}
